@@ -1,0 +1,22 @@
+{
+  "name": "portable-ssl",
+  "version": "0.1.0",
+  "description": "A fully portable, dependency-free implementation of cryptographic primitives and TLS protocol",
+  "main": "index.js",
+  "scripts": {
+    "configure": "mkdir -p build && cd build && cmake ..",
+    "build": "cd build && cmake --build .",
+    "test": "cd build && ctest",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "openssl",
+    "ssl",
+    "tls",
+    "crypto",
+    "portable",
+    "security"
+  ],
+  "author": "iorireda3",
+  "license": "MIT"
+}
