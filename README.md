@@ -29,6 +29,14 @@ cmake ..
 cmake --build .
 ```
 
+```bash
+# nodejs for npm cmd # sudo dnf install nodejs -y
+npm run clean
+npm run configure
+npm run build
+npm run start
+```
+
 ## Usage
 
 ### Library
